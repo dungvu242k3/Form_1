@@ -1,0 +1,56 @@
+{
+"_id": "ObjectId",
+
+"_comment": "Thông tin cá nhân của thí sinh",
+"personalInfo": {
+    "fullName": "String",
+    "dateOfBirth": "Date",
+    "age": "Number",
+    "nationality": "String",
+    "email": "String",
+    "phone": "String",
+    "address": {
+    "city": "String",
+    "district": "String",
+    "street": "String"
+        }
+    },
+
+
+"physicalInfo": {
+    "_comment": "Thông tin chỉ sổ của thí sinh",
+    "height": "Number",
+    "weight": "Number",
+    "bust": "Number",
+    "waist": "Number",
+    "hips": "Number",
+    "hairColor": "String"
+    },
+
+"skillsAndEducation": {
+    "_comment": "Thông tin kỹ năng và học vấn của thí sinh",
+    "education": "String",
+    "languages": ["String"],
+    "skills": ["String"],
+    "experience": ["String"]
+    },
+
+"portfolio": {
+    "_comment": "Thông tin hồ sơ của thí sinh",
+    "profilePicture": "String (URL)",
+    "portfolioLinks": ["String (URL)"],
+    "biography": "String",
+    "socialLinks": {
+    "instagram": "String",
+    "facebook": "String",
+    "tiktok": "String"
+        }
+    },
+
+"management": {
+    "_comment": "Thông tin quản lý hồ sơ thí sinh",
+    "isActive": "Boolean",
+    "submittedAt": "Date",
+    "updatedAt": "Date"
+    }
+}
